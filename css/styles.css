@@ -1,0 +1,257 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+p{
+    line-height: 26px;
+}
+
+
+.sec-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://www.irfangoker.com/project/vcardpay/assets/img/home/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    padding: 0px 90px 0px 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.container h1{
+    font-size: 3.4rem;
+    line-height: 36px;
+}
+.container p{
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header nav{
+    display: flex;
+    height: 90px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header nav ul li{
+    display: flex;
+    padding: 20px;
+    font-size: 1.8rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #ff6b25;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    color: white;
+    padding: 220px;
+}
+.botao-laranja{
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    background: linear-gradient(to right, #ff3e20 0, #ff9929 50%,#ff3e20 100%);
+}
+.botao-laranja a:hover{
+    font-size: 1.3rem;
+}
+
+.botao-transparente{
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    border: 1.5px solid white;
+    margin-right: 10px;   
+}
+.botao-menu {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600; 
+}
+
+.container-icones{
+    max-width: 970px; 
+    margin: auto;
+    padding-top: 80px;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+  
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+.icones p{
+    margin: 30px 20px 30px 30px;
+}
+.img-icon{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.sec-icones a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: 600;
+}
+
+.sec-app{
+    display: flex;
+    margin-top: 80px;
+    background-color:#D3D3D3;
+}
+.container-app{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+.container-app img{
+    width: 600px;
+    height: 500px;
+}
+.container-app-info{
+    max-width: 500px;
+}
+.container-app h2{
+    color: rebeccapurple;  
+    padding-bottom: 20px;
+}
+.container-app p{
+    color: rebeccapurple;  
+    padding-bottom: 20px;
+}
+.sec-solution{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(http://www.irfangoker.com/project/vcardpay/assets/img/home/quick-solution-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.container-solution{
+    display: flex;
+    align-items: center;
+    padding-left: 700px;
+    color: white;
+}
+
+.container-solution-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.container-solution-info h2{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.sec-qr-code{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(http://www.irfangoker.com/project/vcardpay/assets/img/home/quick-solution-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container-qr-code{
+    display: flex;
+    align-items: center;
+    color: rebeccapurple;
+    margin-left: 200px;
+}
+.container-qr-info{    
+    max-width: 600px;
+    align-items: center;
+}
+
+.sec-baixe-app{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-baixe-app{
+    display: flex;
+    align-items: center;
+}
+
+.container-baixe-app-vantagens{
+    margin-right: 20px;
+    color: rebeccapurple;
+}
+
+.container-footer{
+    height: 140px;
+    background: -webkit-gradient(linear,left top,right top,from(#8c378b),to(#491b81));
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.redes-sociais img{
+    width: 50px;
+    margin: 10px;
+}
